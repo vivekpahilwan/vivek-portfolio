@@ -43,7 +43,7 @@ export default function Hero() {
   }
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-black via-gray-900 to-black pt-32 lg:pt-40">
+    <section className="h-screen flex flex-col justify-center relative bg-gradient-to-br from-black via-gray-900 to-black pt-16 sm:pt-20 lg:pt-24">
       {/* Background Pattern */}
       <div
         className="absolute inset-0 opacity-50"
@@ -53,11 +53,11 @@ export default function Hero() {
         }}
       ></div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex-1 flex flex-col justify-center">
         <div className="text-center max-w-4xl mx-auto">
           {/* Profile Image */}
-          <div className="mb-8 relative inline-block">
-            <div className="w-48 h-48 lg:w-56 lg:h-56 mx-auto relative">
+          <div className="mb-6 sm:mb-8 relative inline-block">
+            <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 mx-auto relative">
               <Image
                 src={personal.profileImage || "/placeholder.svg"}
                 alt={personal.name}
@@ -77,44 +77,44 @@ export default function Hero() {
           </div>
 
           {/* Name and Role */}
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-4 tracking-tight">{personal.name}</h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-3 sm:mb-4 tracking-tight">{personal.name}</h1>
 
-          <div className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-2 h-12 flex items-center justify-center">
+          <div className="text-lg sm:text-xl lg:text-2xl text-gray-300 mb-2 h-8 sm:h-10 lg:h-12 flex items-center justify-center">
             <span className="text-blue-400">{currentRole}</span>
             <span className="ml-1 animate-pulse">|</span>
           </div>
 
-          <p className="text-lg lg:text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">{personal.bio}</p>
+          <p className="text-base sm:text-lg lg:text-xl text-gray-400 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed px-4">{personal.bio}</p>
 
           {/* Location */}
-          <p className="text-gray-500 mb-8 flex items-center justify-center gap-2">
+          <p className="text-gray-500 mb-6 sm:mb-8 flex items-center justify-center gap-2">
             <span>📍</span> {personal.location}
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-8 sm:mb-10">
             <Button
               onClick={scrollToProjects}
               size="lg"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg font-medium transition-all duration-300 hover:scale-105"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-2 sm:py-3 text-base sm:text-lg font-medium transition-all duration-300 hover:scale-105"
             >
               View Projects
             </Button>
             <Button
               variant="outline"
               size="lg"
-              className="border-gray-600 text-gray-300 hover:bg-gray-800 hover:text-white px-8 py-3 text-lg font-medium transition-all duration-300 hover:scale-105"
+              className="border-gray-600 text-gray-300 hover:bg-gray-800 hover:text-white px-6 sm:px-8 py-2 sm:py-3 text-base sm:text-lg font-medium transition-all duration-300 hover:scale-105"
               asChild
             >
               <a href={personal.resume} download>
-                <Download className="mr-2 h-5 w-5" />
+                <Download className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
                 Download Resume
               </a>
             </Button>
           </div>
 
           {/* Social Links */}
-          <div className="flex justify-center gap-6 mb-12">
+          <div className="flex justify-center gap-6 mb-6 sm:mb-8">
             <a
               href={personal.social.linkedin}
               target="_blank"
@@ -140,12 +140,12 @@ export default function Hero() {
               <ExternalLink size={24} />
             </a>
           </div>
-
-          {/* Scroll Indicator */}
-          <div className="animate-bounce">
-            <ArrowDown className="mx-auto text-gray-500 h-6 w-6" />
-          </div>
         </div>
+      </div>
+
+      {/* Scroll Indicator - Fixed at bottom */}
+      <div className="absolute bottom-6 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <ArrowDown className="text-gray-500 h-5 w-5 sm:h-6 sm:w-6" />
       </div>
     </section>
   )
