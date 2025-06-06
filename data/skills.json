@@ -1,0 +1,36 @@
+{
+  "skills": [
+    {
+      "category": "Design",
+      "items": [
+        { "name": "UI/UX Design", "level": 95, "icon": "🎨" },
+        { "name": "Design Systems", "level": 90, "icon": "🔧" },
+        { "name": "Prototyping", "level": 90, "icon": "⚡" },
+        { "name": "Wireframing", "level": 85, "icon": "📐" },
+        { "name": "User Experience", "level": 90, "icon": "👤" },
+        { "name": "Feature Prioritization", "level": 85, "icon": "📊" }
+      ]
+    },
+    {
+      "category": "Technical",
+      "items": [
+        { "name": "Tailwind CSS", "level": 80, "icon": "💨" },
+        { "name": "Bootstrap", "level": 75, "icon": "🅱️" },
+        { "name": "Java", "level": 70, "icon": "☕" },
+        { "name": "Web Development", "level": 75, "icon": "🌐" },
+        { "name": "SQL", "level": 70, "icon": "🗄️" }
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        { "name": "Figma", "level": 95, "icon": "🎯" },
+        { "name": "Git/GitHub", "level": 80, "icon": "📚" },
+        { "name": "JIRA", "level": 75, "icon": "📋" },
+        { "name": "ClickUp", "level": 75, "icon": "✅" },
+        { "name": "Slack", "level": 80, "icon": "💬" },
+        { "name": "VS Code", "level": 85, "icon": "💻" }
+      ]
+    }
+  ]
+}

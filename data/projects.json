@@ -1,0 +1,73 @@
+{
+  "projects": [
+    {
+      "id": "drop-ride-sharing",
+      "title": "Drop - A Ride Sharing App",
+      "shortDescription": "Hyper localized bike pooling and cab sharing app",
+      "description": "A Hyper Localized bike pooling and a cab sharing app for users who don't have enough budget to buy private vehicles. Users who have vehicles can drop other users who don't have vehicles and can earn through it.",
+      "category": "mobile-app",
+      "tags": ["UI/UX", "Mobile", "Figma", "Microsoft Fluent UI"],
+      "year": "2024",
+      "featured": true,
+      "thumbnail": "/placeholder.svg?height=300&width=400",
+      "images": ["/placeholder.svg?height=600&width=400", "/placeholder.svg?height=600&width=400"],
+      "links": {
+        "figma": "https://figma.com/drop-design"
+      },
+      "content": {
+        "problem": "Users without private vehicles lack affordable transportation options while vehicle owners miss earning opportunities.",
+        "solution": "Created a hyper-localized platform connecting vehicle owners with passengers for cost-effective ride sharing.",
+        "process": ["User Research", "Wireframing", "UI Design", "Prototyping", "Testing"],
+        "features": ["Bike Pooling", "Cab Sharing", "Earnings System", "Location-based Matching"],
+        "technologies": ["Figma", "Microsoft Fluent UI Design System"],
+        "results": "Designed following HIG principles with intuitive user experience."
+      }
+    },
+    {
+      "id": "unstag-campus-app",
+      "title": "Unstag - Anonymous Campus App",
+      "shortDescription": "Anonymous campus community platform",
+      "description": "An Anonymous Campus app where users can connect anonymously and share their thoughts in forms of gossip, confessions, secrets and incidents.",
+      "category": "mobile-app",
+      "tags": ["UI/UX", "Mobile", "Material 3", "Zeroheight"],
+      "year": "2024",
+      "featured": true,
+      "thumbnail": "/placeholder.svg?height=300&width=400",
+      "images": ["/placeholder.svg?height=600&width=400"],
+      "links": {
+        "playstore": "https://play.google.com/store/apps/details?id=com.unstag"
+      },
+      "content": {
+        "problem": "Students lack a safe space to share thoughts and experiences anonymously on campus.",
+        "solution": "Designed an anonymous platform for students to connect and share experiences safely.",
+        "process": ["User Research", "Information Architecture", "UI Design", "Documentation"],
+        "features": ["Anonymous Posting", "Campus Community", "Safe Sharing", "Real-time Updates"],
+        "technologies": ["Material 3 UI", "Zeroheight"],
+        "results": "Successfully launched on Play Store with positive user feedback."
+      }
+    },
+    {
+      "id": "ecommerce-redesign",
+      "title": "E-commerce Platform Redesign",
+      "shortDescription": "Modern shopping experience design",
+      "description": "Complete redesign of an e-commerce platform focusing on user experience and conversion optimization.",
+      "category": "web-app",
+      "tags": ["UI/UX", "Web", "E-commerce", "Conversion"],
+      "year": "2023",
+      "featured": false,
+      "thumbnail": "/placeholder.svg?height=300&width=400",
+      "images": ["/placeholder.svg?height=600&width=800"],
+      "links": {
+        "figma": "https://figma.com/ecommerce-design"
+      },
+      "content": {
+        "problem": "Low conversion rates and poor user experience on existing platform.",
+        "solution": "Redesigned the entire user journey with focus on usability and conversion.",
+        "process": ["User Research", "Journey Mapping", "Wireframing", "UI Design", "Testing"],
+        "features": ["Improved Navigation", "Better Search", "Streamlined Checkout", "Mobile Optimization"],
+        "technologies": ["Figma", "Adobe Creative Suite"],
+        "results": "35% increase in conversion rate and 50% reduction in cart abandonment."
+      }
+    }
+  ]
+}

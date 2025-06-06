@@ -1,0 +1,34 @@
+{
+  "experience": [
+    {
+      "id": "skillcrunch",
+      "company": "SkillCrunch Pvt. Ltd",
+      "role": "UI UX Designer",
+      "type": "Full-time",
+      "duration": "Jul 2024 - Jan 2025",
+      "logo": "/placeholder.svg?height=60&width=60",
+      "description": "Redesigned entire UI for SkillCrunch and Unstag services with comprehensive design system development.",
+      "achievements": [
+        "Redesigned entire UI resulting in 35% improvement in user navigation time and 28% increase in user engagement metrics",
+        "Developed comprehensive Design System with 50+ reusable components, reducing design inconsistencies by 90%",
+        "Decreased development implementation time by 40% through efficient design system"
+      ],
+      "technologies": ["Figma", "Design Systems", "UI/UX", "Material Design"]
+    },
+    {
+      "id": "intinic",
+      "company": "Intinic Solutions",
+      "role": "Software Engineering Intern",
+      "type": "Internship",
+      "duration": "Jul 2022 - Aug 2022",
+      "logo": "/placeholder.svg?height=60&width=60",
+      "description": "Contributed to restaurant app development while championing Agile methodology adoption.",
+      "achievements": [
+        "Championed Agile Scrum adoption across cross-functional team, leading to 20% increase in project delivery speed",
+        "Significant boost in team morale based on post-project surveys",
+        "Enhanced UI/UX skills through hands-on restaurant app development from conceptualization to deployment"
+      ],
+      "technologies": ["Agile Scrum", "App Development", "UI/UX", "Team Leadership"]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Vivek Pahilwan",
+  "role": "UI/UX Designer",
+  "bio": "A design enthusiast pursuing B.Tech at Vishwakarma Institute of Information Technology, Pune. Looking for UI/UX or Product Design opportunities.",
+  "location": "Pune, India",
+  "email": "pahilwanvivek@gmail.com",
+  "phone": "+91 8983265055",
+  "profileImage": "/placeholder.svg?height=200&width=200",
+  "resume": "/documents/vivek-resume.pdf",
+  "social": {
+    "linkedin": "https://linkedin.com/in/vivek-pahilwan",
+    "github": "https://github.com/vivek-pahilwan",
+    "behance": "https://behance.net/vivek-pahilwan",
+    "portfolio": "https://vivek-portfolio.com"
+  },
+  "availability": "Available for opportunities",
+  "yearsOfExperience": 2
+}
